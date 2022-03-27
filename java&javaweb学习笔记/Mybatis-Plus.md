@@ -83,6 +83,10 @@ public class User {
 
 2.对象中的属性字段在表中不存在的问题
 
-3.对象中的属性不返回其内容
+3.对象中的属性不参与查询
 
 ![image-20220327092312084](Mybatis-Plus.assets/image-20220327092312084.png)
+
+字段不加入查询字段
+
+![image-20220327093904681](Mybatis-Plus.assets/image-20220327093904681.png)

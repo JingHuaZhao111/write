@@ -1,0 +1,22 @@
+#在本地创建一个文件夹，将创建的仓库远程连接到改文件夹下
+git clone https://gitee.com/jinghuazhao/gitstudy
+#.创建一个readme.txt文件
+touch readme.txt
+#创建一个分支origin
+$ git checkout -b origin
+git push origin origin -u
+#使用origin将readme.txt文件提交到仓库中
+git add .
+git commit -m "new file readme.txt"
+git push
+#使用master主分支，将刚刚上传的文件合并到主分支上
+git checkout master
+git merge origin
+#将https://gitee.com/happyhub/test5.git 这个仓库克隆到本地
+git clone https://gitee.com/happyhub/test5.git 
+touch ZhaoJingHua-5.txt
+#将文件上传到仓库中
+git clone https://gitee.com/jinghuazhao/test5.git
+git add .
+git commit -m "new file readme.txt"
+git push
